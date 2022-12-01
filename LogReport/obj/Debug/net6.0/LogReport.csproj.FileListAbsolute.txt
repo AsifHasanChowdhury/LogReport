@@ -1,0 +1,15 @@
+C:\Users\shima\source\repos\LogReport\bin\Debug\net6.0\LogReport.exe
+C:\Users\shima\source\repos\LogReport\bin\Debug\net6.0\LogReport.deps.json
+C:\Users\shima\source\repos\LogReport\bin\Debug\net6.0\LogReport.runtimeconfig.json
+C:\Users\shima\source\repos\LogReport\bin\Debug\net6.0\LogReport.dll
+C:\Users\shima\source\repos\LogReport\bin\Debug\net6.0\LogReport.pdb
+C:\Users\shima\source\repos\LogReport\obj\Debug\net6.0\LogReport.csproj.AssemblyReference.cache
+C:\Users\shima\source\repos\LogReport\obj\Debug\net6.0\LogReport.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shima\source\repos\LogReport\obj\Debug\net6.0\LogReport.AssemblyInfoInputs.cache
+C:\Users\shima\source\repos\LogReport\obj\Debug\net6.0\LogReport.AssemblyInfo.cs
+C:\Users\shima\source\repos\LogReport\obj\Debug\net6.0\LogReport.csproj.CoreCompileInputs.cache
+C:\Users\shima\source\repos\LogReport\obj\Debug\net6.0\LogReport.dll
+C:\Users\shima\source\repos\LogReport\obj\Debug\net6.0\refint\LogReport.dll
+C:\Users\shima\source\repos\LogReport\obj\Debug\net6.0\LogReport.pdb
+C:\Users\shima\source\repos\LogReport\obj\Debug\net6.0\LogReport.genruntimeconfig.cache
+C:\Users\shima\source\repos\LogReport\obj\Debug\net6.0\ref\LogReport.dll
