@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shima\\source\\repos\\LogReport\\LogReport.csproj": {}
+    "D:\\Gitstore\\LogReport\\LogReport\\LogReport.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shima\\source\\repos\\LogReport\\LogReport.csproj": {
+    "D:\\Gitstore\\LogReport\\LogReport\\LogReport.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shima\\source\\repos\\LogReport\\LogReport.csproj",
+        "projectUniqueName": "D:\\Gitstore\\LogReport\\LogReport\\LogReport.csproj",
         "projectName": "LogReport",
-        "projectPath": "C:\\Users\\shima\\source\\repos\\LogReport\\LogReport.csproj",
-        "packagesPath": "C:\\Users\\shima\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shima\\source\\repos\\LogReport\\obj\\",
+        "projectPath": "D:\\Gitstore\\LogReport\\LogReport\\LogReport.csproj",
+        "packagesPath": "C:\\Users\\SECL\\.nuget\\packages\\",
+        "outputPath": "D:\\Gitstore\\LogReport\\LogReport\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\shima\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SECL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
