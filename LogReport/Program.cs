@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using System.Security.Cryptography;
 using System.Text.RegularExpressions;
 using static System.Net.Mime.MediaTypeNames;
@@ -9,6 +10,8 @@ string logFile = File.ReadAllText("C:\\Users\\SECL\\Downloads\\logs\\20221019-Al
 //string pattern = @"{4}-{2}-{2}\s{2}:{2}:{2}.{4}\s[A-Z\s?]\s-\s[A-Z|a-z:{1,2}\s?";
 //string lidPattern=@" pageName:[A-z]*\|lid:\d{1,}";
 //List<Tuple<Match, List<string> >> TupleMatch = new List<Tuple<Match, List<string>>>();
+//List <String> idList=new List<String> ();
+
 
 string lidPatternPage = @"pageName:[A-z]*\|lid:\d{1,}";
 
@@ -16,18 +19,18 @@ string pattern = @"\d{4}-\d{2}-\d{2}\s\d{2}:\d{2}:\d{2}.\d{4}\s\[[A-Z]*\]\s-\s\[
 
 string lidPattern = @"lid:\d{1,}";
 
+string FinalPage = @"\d{4}-\d{2}-\d{2}\s\d{2}:\d{2}:\d{2}.\d{4}\s\[[A-Z]*\]\s-\s\[Thread:\d{1,3}\s*?\]\s?-\s?[==\s==\s^[A-z]*\s[A-z]*.[A-z]*\s[A-z]*.\s?[A-z]*:[A-z]*\|";
+
 MatchCollection matches = Regex.Matches(logFile, pattern);
 
 MatchCollection LidPageMatchList = Regex.Matches(logFile, lidPatternPage);
 
-//List <String> idList=new List<String> ();
-
 IDictionary <String,List<Match>> Mapped=new Dictionary<String,List<Match>> ();
 
-foreach (Match match in LidPageMatchList)
+foreach (Match match in matches)
 {
    Match id = Regex.Match(match.Value, lidPattern);
-
+   
     if (!Mapped.ContainsKey(id.Value))
     {
         Mapped.Add(id.Value.ToString(), new List<Match>());
@@ -35,8 +38,13 @@ foreach (Match match in LidPageMatchList)
 }
 
 
+
 foreach (var match in Mapped)
 {
+
+   // foreach( var match2 in )
+
+    //if(Regex.IsMatch())
     Console.WriteLine(match.Key);
 }
 
