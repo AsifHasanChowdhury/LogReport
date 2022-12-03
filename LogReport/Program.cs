@@ -72,9 +72,17 @@ public class Program
             Console.Write("[");
             foreach (var val2 in val.Value)
             {
-                Console.Write(" " + val2 + "=>");
+                if (val2 != val.Value[^1])
+                {
+                    Console.Write(" " + val2 + "=>");
+                }
+
+                else
+                {
+                    Console.WriteLine(" " + val2 + " ]");
+                }
             }
-            Console.WriteLine("]");
+            
         }
 
        
