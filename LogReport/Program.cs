@@ -54,6 +54,17 @@ public class Program
 
     public static void PrintDetail(Dictionary <String, List<Match>> MappedPage) {
 
+        Console.WriteLine("========================================================");
+
+        Console.WriteLine("Total Number of Unique Users " + MappedPage.Keys.Count());
+
+        Console.WriteLine("========================================================");
+
+        Console.WriteLine("Every Unique Users Page to Page Movement Track Details");
+
+        
+
+
         foreach (var val in MappedPage)
         {
             Console.Write(val.Key);
@@ -66,10 +77,7 @@ public class Program
             Console.WriteLine("]");
         }
 
-        Console.WriteLine();
-
-        Console.WriteLine("Total Number of Unique Users "+MappedPage.Keys.Count());
-
+       
     }
 
 
